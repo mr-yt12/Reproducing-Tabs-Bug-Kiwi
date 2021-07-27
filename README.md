@@ -1,7 +1,7 @@
 # How to reproduce:
 
 1. Go to Kiwi on Android, install this extension
-2. Open `chrome://extensions/` tab
+2. Open `chrome://extensions/` tab (or leave it open after the previous step)
 3. Click `background page` 
 4. Close all other tabs, except the `chrome://extensions/` and `background page` devtools
 5. Open some website, for example `example.com`
