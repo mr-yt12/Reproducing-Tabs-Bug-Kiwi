@@ -1,6 +1,6 @@
 # How to reproduce:
 
-1. Go to Kiwi
+1. Go to Kiwi on Android, install this extension
 2. Open `chrome://extensions/` tab
 3. Click `background page` 
 4. Close all other tabs, except the `chrome://extensions/` and `background page` devtools
