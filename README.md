@@ -4,7 +4,7 @@
 2. Open `chrome://extensions/` tab (or leave it open after the previous step)
 3. Click Inspect views `background page` (of the `reproduce tabs bug` extension)
 4. Close all other tabs, except `chrome://extensions/` and `background page` devtools
-5. Open some website, for example `example.com`
+5. Open some website in a new tab, for example `example.com`
 6. Go to the three dots menu, go to the bottom, find `reproduce tabs bug`, click it.
 7. Go to the `background page` devtools you opened earlier. 
 8. Look at the console output. 
