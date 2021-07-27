@@ -12,7 +12,7 @@
 This is the code in `background.js` (and what it outputs if you do the above steps):
 ```
 chrome.browserAction.onClicked.addListener(function (tab) {
-  console.log(tab); // this outputs the rught tab, but says that it's not active (active: false) [this tab was active when you went to the three dots menu and clicked `reproduce tabs bug`]
+  console.log(tab); // this outputs the right tab, but says that it's not active (active: false) [this tab was active when you went to the three dots menu and clicked `reproduce tabs bug`]
   chrome.tabs.query({active: true, currentWindow: true}, (results) => {
     console.log(results); // outputs an array with one tab, which is `active: false`, even though you specifically requested to search for `active: true`, and it outputs either the `chrome://extensions/` or the `background page` devtools page
   })
