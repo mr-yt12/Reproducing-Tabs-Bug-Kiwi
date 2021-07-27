@@ -1,0 +1,11 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "manifest_version": 2,
+   "name": "reproduce tabs bug",
+   "permissions": [ "tabs", "<all_urls>" ],
+   "version": "1.0.0",
+   "browser_action": {}
+}
